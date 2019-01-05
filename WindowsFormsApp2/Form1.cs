@@ -51,5 +51,10 @@ namespace WindowsFormsApp2
         {
             MessageBox.Show("this is 77");
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("this is 8");
+        }
     }
 }

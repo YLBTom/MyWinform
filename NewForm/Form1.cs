@@ -9,21 +9,21 @@ using System.Windows.Forms;
 
 namespace NewForm
 {
-    public partial class Form1 : Form
+  public partial class Form1 : Form
+  {
+    public Form1()
     {
-        public Form1()
-        {
-            InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void click1()
-        {
-
-        }
+      InitializeComponent();
     }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+      click1();
+    }
+
+    private void click1()
+    {
+      this.textBox1.Text = "zhg ";
+    }
+  }
 }

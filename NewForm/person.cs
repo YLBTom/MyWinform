@@ -7,7 +7,7 @@ namespace NewForm
 {
   class person
   {
-    增加一行又怎么样 ？
+    增加一行又怎么样  服务器修改？
     consl ok;
     这个是本地修改
   }
